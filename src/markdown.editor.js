@@ -5,6 +5,6 @@ export class MarkdownEditor{
 
 	constructor(element){
     this.element = element;
-    this.mymarkdowntext = '#hey \n ##you';
+    this.mymarkdowntext = ![WAT](http://i0.kym-cdn.com/photos/images/newsfeed/000/173/576/Wat8.jpg "WAT")';
 	}
 }
