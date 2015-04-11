@@ -1,10 +1,10 @@
 <template>
-	<require from="./markdown"></require>
+	<require from="components/markdown"></require>
 	<div class="container-fluid">
 		<h2>Markdown Editor</h2>
 	  <div class="row">
 	    <div class="col-sm-6">
-	    	<textarea type="text" value.bind="mymarkdowntext" class="form-control" rows="20"></textarea>
+	    	<textarea type="text" value.bind="mymarkdowntext" class="form-control" rows="12"></textarea>
 	    </div>
 	    <div class="col-sm-6">
 	    	<div markdown.bind="mymarkdowntext"></div>

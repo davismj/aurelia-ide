@@ -10,7 +10,7 @@ export class App {
     this.router.configure(config => {
       config.title = 'Aurelia';
       config.map([
-        { route: '', moduleId: './markdown.editor', nav: true, title: 'Markdown Editor' }
+        { route: 'markdown-preview', moduleId: './markdown.editor', nav: true, title: 'Markdown Editor' }
       ]);
     });
   }
